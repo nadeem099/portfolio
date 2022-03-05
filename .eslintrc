@@ -1,16 +1,16 @@
 {
-    "extends": ["react-app", "plugin:prettier/recommended"],
-    "rules": {
-        "consistent-return": "warn",
-        "no-plusplus": "warn",
-    },
-    "overrides": [
-        {
-            "files": ["*.test.js"],
-            "rules": {
-                "no-unused-vars": "warn",
-                "global-require": "off"
-            }
-        }
-    ]
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "consistent-return": "warn",
+    "no-plusplus": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "rules": {
+        "no-unused-vars": "warn",
+        "global-require": "off"
+      }
+    }
+  ]
 }

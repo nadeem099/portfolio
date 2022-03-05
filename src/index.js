@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Container } from "./containers";
 
-ReactDOM.render(<h1>Portfolio</h1>, document.getElementById("root"));
+ReactDOM.render(<Container />, document.getElementById("root"));
